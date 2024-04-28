@@ -8,10 +8,10 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/nebula-graph.svg' }]
   ],
   themeConfig: {
-    logo: '/nebula-graph.svg',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: '首页', link: '/' },
+      { text: 'Neegix', link: 'https://www.neegix.com' },
       //{ text: '演示环境', link: '/markdown-examples' },
       {
         text: "多语言",
