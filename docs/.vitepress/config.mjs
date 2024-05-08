@@ -12,7 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Neegix', link: 'https://www.neegix.com' },
-      //{ text: '演示环境', link: '/markdown-examples' },
+      { text: '演示环境', link: 'https://nebula-demo.neegix.com' },
       {
         text: "多语言",
         items:[
