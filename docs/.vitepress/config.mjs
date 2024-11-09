@@ -29,14 +29,25 @@ export default defineConfig({
         text: '简介',
         link: '/nebula/nebula-framework/nebula-framework-generator/index',
         items: [
-          { text: '工具如何使用',
+          { text: '插件如何使用',
             items:[
               {
                 text:'快速开始',link:'/nebula/nebula-framework/nebula-framework-generator/quick-start'
               }
             ]
            },
-          { text: '如何扩展', link: '/api-examples'}
+          { text: '自定义扩展', link: '/nebula/nebula-framework/nebula-framework-generator/custom-extension',
+            items: [
+              {
+                text: '数据库扩展',
+                link: '/nebula/nebula-framework/nebula-framework-generator/database-extension'
+              },
+              {
+                text: '模板扩展',
+                link: '/nebula/nebula-framework/nebula-framework-generator/template-extension'
+              }
+            ]
+          }
         ]
       }
     ],
