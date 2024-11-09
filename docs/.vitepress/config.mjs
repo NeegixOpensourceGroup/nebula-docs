@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Neegix Opensource Group",
+  title: "Nebula Framework",
   description: "Nebula 项目文档",
   head: [
     ['link', { rel: 'icon', href: '/nebula-graph.svg' }]
   ],
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/nebula-graph.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Neegix', link: 'https://www.neegix.com' },
