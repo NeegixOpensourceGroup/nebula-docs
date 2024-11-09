@@ -13,6 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Neegix', link: 'https://www.neegix.com' },
       { text: '演示环境', link: 'https://nebula-demo.neegix.com' },
+      { text: '代码自动生成', link: '/nebula/nebula-framework/nebula-framework-generator/index' },
       {
         text: "多语言",
         items:[
@@ -23,16 +24,22 @@ export default defineConfig({
         ]
       }
     ],
-
-    // sidebar: [
-    //   {
-    //     text: '例子',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: '简介',
+        link: '/nebula/nebula-framework/nebula-framework-generator/index',
+        items: [
+          { text: '工具如何使用',
+            items:[
+              {
+                text:'快速开始',link:'/nebula/nebula-framework/nebula-framework-generator/quick-start'
+              }
+            ]
+           },
+          { text: '如何扩展', link: '/api-examples'}
+        ]
+      }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/NeegixOpensourceGroup/nebula-web' },
