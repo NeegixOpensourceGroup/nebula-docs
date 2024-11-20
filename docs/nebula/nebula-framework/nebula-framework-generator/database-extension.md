@@ -48,6 +48,8 @@ public class CustomDatabaseQueryStrategy implements DatabaseQueryStrategy {
   `COLUMN_COMMENT AS DESCRIPTION`：这是列的注释，通常用于描述列的用途或内容，这里我们将其重命名为 `DESCRIPTION` 以便于理解。
 
   `IS_PRIMARY_KEY`：这表明列是否是表的主键，如果是主键列，则返回 `YES`，否则返回 `NO`。
+  
+  `TABLE_DESCRIPTION`：这是表的注释，通常用于描述表的用途或内容，这里我们将其重命名为 `TABLE_DESCRIPTION` 以便理解。
 
 ## 注册自定义数据库扩展到工厂类
 
