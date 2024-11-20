@@ -10,6 +10,7 @@
 - `COLUMN_DEFAULT`：列的默认值。
 - `COLUMN_COMMENT AS DESCRIPTION`：列的注释，作为描述信息。
 - `IS_PRIMARY_KEY`：列是否是主键。
+- `TABLE_DESCRIPTION`： 表的注释，作为描述信息。
 
 ### 实现 `buildQuery` 方法
 
@@ -27,6 +28,7 @@ public class CustomDatabaseQueryStrategy implements DatabaseQueryStrategy {
                "COLUMN_DEFAULT, " +
                "COLUMN_COMMENT AS DESCRIPTION, " +
                "CASE WHEN COLUMN_NAME IN (SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME = '" + tableName + "' AND CONSTRAINT_NAME = 'PRIMARY') THEN 'YES' ELSE 'NO' END AS IS_PRIMARY_KEY " +
+               "TABLE_DESCRIPTION " +
                "FROM INFORMATION_SCHEMA.COLUMNS " +
                "WHERE TABLE_NAME = '" + tableName + "'";
     }
@@ -108,8 +110,7 @@ public class CustomDbTypeMapper implements DbTypeMapper {
             case "CUSTOM_FLOAT" -> Float.class;
             case "CUSTOM_DOUBLE" -> Double.class;
             case "CUSTOM_BOOLEAN", "CUSTOM_TINYINT" -> Boolean.class;
-            case "CUSTOM_DATE" -> Date.class;
-            case "CUSTOM_TIMESTAMP", "CUSTOM_DATETIME" -> Timestamp.class;
+            case "CUSTOM_DATE","CUSTOM_TIMESTAMP", "CUSTOM_DATETIME" -> Instant.class;
             default -> Object.class;
         };
     }
