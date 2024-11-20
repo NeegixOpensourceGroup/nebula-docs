@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Nebula"
+  name: "Nebula Framework"
   text: "您身边的开发平台"
   tagline: 简单 易用 友好
   image:
