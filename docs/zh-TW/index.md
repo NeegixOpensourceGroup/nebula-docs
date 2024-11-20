@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Nebula"
+  name: "Nebula Framework"
   text: "您身邊的開發平台"
   tagline: 簡單 易用 友善
   image:
@@ -11,22 +11,25 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 立即fork
-      link: https://gitee.com/neegix-opensource-group/nebula-web
+      text: Gitee
+      link: https://gitee.com/neegix-opensource-group/nebula-framework
     - theme: alt
-      text: 立即star
-      link: https://gitee.com/neegix-opensource-group/nebula-web
+      text: GitHub
+      link: https://github.com/NeegixOpensourceGroup/nebula-framework
+    - theme: alt
+      text: GitCode
+      link: https://gitcode.com/NeegixOpensourceGroup/nebula-framework
 
 features:
   - icon: ℹ️
-    title: 开源
-    details: 基于开源, 使用开源, 用于开源
+    title: 開源
+    details: 基於開源, 使用開源, 用於開源
   - icon: 😀
-    title: 商业友好
-    details: 基于Apache License 2.0 开源协议, 兼容商业, 无需授权
+    title: 商業友好
+    details: 基於Apache License 2.0 開源協議, 兼容商業, 無需授權
   - icon: 🛠️
-    title: 简单方便
-    details: 用于自己的商业产品, 所以会力求简单易用
+    title: 簡單方便
+    details: 因為我們自己也有用在商業產品上, 所以會盡量做到簡單好用哦！
 ---
 
 

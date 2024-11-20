@@ -11,11 +11,14 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 立即fork
-      link: https://gitee.com/neegix-opensource-group/nebula-web
+      text: Gitee
+      link: https://gitee.com/neegix-opensource-group/nebula-framework
     - theme: alt
-      text: 立即star
-      link: https://gitee.com/neegix-opensource-group/nebula-web
+      text: GitHub
+      link: https://github.com/NeegixOpensourceGroup/nebula-framework
+    - theme: alt
+      text: GitCode
+      link: https://gitcode.com/NeegixOpensourceGroup/nebula-framework
 
 features:
   - icon: ℹ️
