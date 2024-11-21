@@ -5,7 +5,12 @@ export default defineConfig({
   title: "Nebula Framework",
   description: "Nebula 项目文档",
   head: [
-    ['link', { rel: 'icon', href: '/nebula-graph.svg' }]
+    ['link', { rel: 'icon', href: '/nebula-graph.svg' }],
+    ['script', {
+      defer: '',
+      src: 'https://cloud.umami.is/script.js',
+      'data-website-id': '80d5b41d-eee5-456f-b807-5511d3cd2e3b'
+    }]
   ],
   themeConfig: {
     logo: '/nebula-graph.svg',
