@@ -17,7 +17,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Neegix', link: 'https://www.neegix.com' },
-      // { text: '演示环境', link: 'https://nebula-demo.neegix.com' },
+      { text: '演示环境', link: 'https://nebula-admin.neegix.com' },
       { text: '代码自动生成', link: '/nebula/nebula-framework/nebula-framework-generator/index' },
       {
         text: "多语言",
