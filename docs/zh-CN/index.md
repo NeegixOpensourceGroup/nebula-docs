@@ -7,7 +7,7 @@ hero:
   text: "您身边的开发平台"
   tagline: 简单 易用 友好
   image:
-    src: /nebula-graph.svg
+    src: /nebula.svg
     alt: VitePress
   actions:
     - theme: brand

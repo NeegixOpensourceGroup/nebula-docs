@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Nebula Framework",
   description: "Nebula 项目文档",
   head: [
-    ['link', { rel: 'icon', href: '/nebula-graph.svg' }],
+    ['link', { rel: 'icon', href: '/nebula.svg' }],
     ['script', {
       defer: '',
       src: 'https://cloud.umami.is/script.js',
@@ -14,7 +14,7 @@ export default defineConfig({
     }]
   ],
   themeConfig: {
-    logo: '/nebula-graph.svg',
+    logo: '/nebula.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav,
     sidebar: sidebar,

@@ -7,7 +7,7 @@ hero:
   text: "The development platform around you"
   tagline: Easy to use, easy to develop
   image:
-    src: /nebula-graph.svg
+    src: /nebula.svg
     alt: VitePress
   actions:
     - theme: brand
