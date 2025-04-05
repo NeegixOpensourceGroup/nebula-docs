@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: GitCode
       link: https://gitcode.com/NeegixOpensourceGroup/nebula-framework
+    - theme: alt
+      text: QQ群
+      link: https://jq.qq.com/?_wv=1027&k=996598075
 
 features:
   - icon: ℹ️

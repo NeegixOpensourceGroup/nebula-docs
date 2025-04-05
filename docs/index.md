@@ -8,7 +8,7 @@ hero:
   tagline: 简单 易用 友好
   image:
     src: /nebula-graph.svg
-    alt: VitePress
+    alt: Nebula Framework
   actions:
     - theme: brand
       text: Gitee
@@ -19,6 +19,8 @@ hero:
     - theme: alt
       text: GitCode
       link: https://gitcode.com/NeegixOpensourceGroup/nebula-framework
+    - theme: alt
+      text: QQ交流群：996598075
 
 features:
   - icon: ℹ️

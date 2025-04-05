@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
-
+import nav from './nav.mjs'
+import sidebar from './sidebar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Nebula Framework",
@@ -15,48 +16,8 @@ export default defineConfig({
   themeConfig: {
     logo: '/nebula-graph.svg',
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Neegix', link: 'https://www.neegix.com' },
-      { text: '演示环境', link: 'https://nebula-admin.neegix.com' },
-      { text: '代码自动生成', link: '/nebula/nebula-framework/nebula-framework-generator/index' },
-      {
-        text: "多语言",
-        items:[
-            {text:'简体中文',link:'/zh-CN/'},
-            {text:'繁体中文',link:'/zh-TW/'},
-            {text:'English',link:'/en-US/'},
-
-        ]
-      }
-    ],
-    sidebar: [
-      {
-        text: '简介',
-        link: '/nebula/nebula-framework/nebula-framework-generator/index',
-        items: [
-          { text: '插件如何使用',
-            items:[
-              {
-                text:'快速开始',link:'/nebula/nebula-framework/nebula-framework-generator/quick-start'
-              }
-            ]
-           },
-          { text: '自定义扩展', link: '/nebula/nebula-framework/nebula-framework-generator/custom-extension',
-            items: [
-              {
-                text: '数据库扩展',
-                link: '/nebula/nebula-framework/nebula-framework-generator/database-extension'
-              },
-              {
-                text: '模板扩展',
-                link: '/nebula/nebula-framework/nebula-framework-generator/template-extension'
-              }
-            ]
-          }
-        ]
-      } 
-    ],
-
+    nav,
+    sidebar: sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/NeegixOpensourceGroup/nebula-framework', ariaLabel: 'GitHub' },
       { icon: {
