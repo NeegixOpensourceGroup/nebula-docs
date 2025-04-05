@@ -32,6 +32,15 @@ features:
   - icon: 🛠️
     title: 简单方便
     details: 用于自己的商业产品, 所以会力求简单易用
+  - icon: 🧑‍🎓
+    title: 课程/毕业设计
+    details: 简单方便的框架，可用于课程/毕业设计
+  - icon: 🧔‍♂️
+    title: 私活/个人项目
+    details: 轻量级框架，快速搭建个人项目，无需复杂配置
+  - icon: 🏢
+    title: 中小企业
+    details: 模块化设计，灵活扩展，满足中小企业多样化需求
 ---
 
 
