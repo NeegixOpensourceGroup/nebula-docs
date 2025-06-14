@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid';
 import nav from './nav.mjs'
 import sidebar from './sidebar.mjs'
+
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "Nebula Framework",
   description: "Nebula 项目文档",
   head: [
@@ -31,5 +33,15 @@ export default defineConfig({
     footer: {
       copyright: `Copyright © 2024-${new Date().getFullYear()===2024?'Present':new Date().getFullYear()} Neegix Opensource Group`
     },
+  },
+  // Mermaid 配置（可选）
+  mermaid: {
+    // Mermaid 的配置选项
+    //theme: 'dark', // 设置 Mermaid 图表的主题
+  },
+  // Mermaid 插件的额外配置（可选）
+  mermaidPlugin: {
+    // 为 Mermaid 图表的父容器添加额外的 CSS 类
+    // class: 'mermaid my-class',
   }
 })
